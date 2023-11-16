@@ -8,9 +8,13 @@ const startCount = () => {
     let hour = curentDate.getHours();
     let minute = curentDate.getMinutes();
     let second = curentDate.getSeconds();
+    let day = curentDate.getDate();
+    let month = curentDate.getMonth();
+    let year = curentDate.getFullYear()
     
     intervalTime = setInterval(() => {
         newtime.innerHTML =
+        (day + '-' + month + '-' + year +'  ') + 
         (hour ? hour + ':' : '') + 
         (minute < 10 ? '0' + minute : minute) + ':' +
         (second < 10 ? '0' + second : second) 
