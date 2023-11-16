@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+    
+
+.button{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(126, 176, 25, 0.1);
+    border:aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgba(50, 51, 50, 0.7);
+    
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: brown;
+
+}
