@@ -14,7 +14,7 @@ const startCount = () => {
     
     intervalTime = setInterval(() => {
         newtime.innerHTML =
-        (day + '-' + month + '-' + year +'  ') + 
+        (day + '/' + month + '/' + year +'  ') + 
         (hour ? hour + ':' : '') + 
         (minute < 10 ? '0' + minute : minute) + ':' +
         (second < 10 ? '0' + second : second) 

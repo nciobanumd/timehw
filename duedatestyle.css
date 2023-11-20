@@ -1,0 +1,22 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height:100vh;
+   margin: 0;
+   
+}
+
+.clock {
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+    
+
+}
+
+.button{
+    text-align: center;
+    font-weight: bold;
+}
